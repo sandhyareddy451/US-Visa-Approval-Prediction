@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 
-
 project_name= "US_Visa"
 
 list_of_files =[
@@ -24,7 +23,7 @@ list_of_files =[
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/pipeline/prediction_pipeline.py",
     f"{project_name}/utils/__init__.py",
-    f"{project_name}/utils/main.py",
+    f"{project_name}/utils/main_utils.py",
     "app.py",
     "requirements.txt",
     "Dockerfile",
